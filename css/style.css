@@ -10,7 +10,7 @@ a{
 }
 
 .container{
-    max-width: 95vw; /* 95vw means 95% (vw-viewport width)  */
+    max-width: 66vw; /* 95vw means 95% (vw-viewport width)  */
     padding: 2rem 1rem;
     margin: 0 auto;
 }
@@ -45,10 +45,11 @@ a{
     grid-template-columns: repeat(4,1fr);    
 }
 .card_container{
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     border: 1px solid rgb(114, 110, 110);
-    border-radius: 2px;
+    border-radius: 8px;
 }
 .card_image_container{
     position: relative;
@@ -90,6 +91,7 @@ a{
     display: flex;
     justify-content: space-between;
     padding: 1.5rem;
+    align-items: flex-end;
 }
 .author_container{
     display: flex;
