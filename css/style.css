@@ -37,8 +37,6 @@ a{
 }
 
 
-
-
 .main_container{
     display: grid;
     gap: 1.5rem;
@@ -48,7 +46,7 @@ a{
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    border: 1px solid rgb(114, 110, 110);
+    border: 1px solid rgb(226, 221, 221);
     border-radius: 8px;
 }
 .card_image_container{
@@ -109,15 +107,15 @@ a{
     flex-direction: column;
 }
 .author_name{
-    color: rgb(36, 36, 161);
+    color:black;
 }
 .author_date{
     color: rgb(136, 127, 127);
 }
 .card_tag_container{
-    font-size: 0.9rem;
+    font-size: 0.79rem;
     border: 1px solid rgb(75, 75, 75);
-    border-radius:2px;
+    border-radius:4px;
     line-height: 1.3rem;
     padding: 0.25rem 0.5rem;
     color: gray;
